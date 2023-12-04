@@ -24,7 +24,7 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
         player2 = new Racket(game, KeyEvent.VK_W, KeyEvent.VK_S, 20);
         Timer timer = new Timer(5, this);
         timer.start();
-        //this.game.addKeyListener(this);
+        this.game.addKeyListener(this);
     }
     public Racket getPlayer(int playerNum) {
         if (playerNum == 1)
