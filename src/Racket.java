@@ -31,9 +31,9 @@ public class Racket {
     // Method to handle key press events for racket movement
     public void pressed(int keyCode) {
         if (keyCode == up)
-            ya = -2;
+            ya = -1;
         else if (keyCode == down)
-            ya = 2;
+            ya = 1;
     }
 
     // Method to handle key release events
